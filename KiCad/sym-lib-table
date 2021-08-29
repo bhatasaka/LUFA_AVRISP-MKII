@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name AVR-ISPMKII_Created)(type Legacy)(uri ${KIPRJMOD}/AVR-ISPMKII_Created.lib)(options "")(descr ""))
+  (lib (name AVR-ISPMKII-rescue)(type Legacy)(uri ${KIPRJMOD}/AVR-ISPMKII-rescue.lib)(options "")(descr ""))
+)

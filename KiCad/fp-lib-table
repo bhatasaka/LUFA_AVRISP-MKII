@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name AVR-ISPMKII)(type KiCad)(uri "C:/Users/Bryan/Google Drive/Projects/PCBs/KiCad/Libraries/Footprint/AVR-ISPMKII.pretty")(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri "C:/Users/Bryan/Google Drive/Projects/PCBs/KiCad/stlinkv3_to_swd - smaller/logo.pretty")(options "")(descr ""))
+)

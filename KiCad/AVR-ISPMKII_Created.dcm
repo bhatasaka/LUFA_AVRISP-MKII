@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP7365-33WG-7
+D IC REG LINEAR 3.3V 600MA SOT25
+K LDO
+F https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/AP7365.pdf
+$ENDCMP
+#
+$CMP FXMA2104UMX
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, Texas_PUQFN-12
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0104.pdf
+$ENDCMP
+#
+$CMP NLSX4373DMR2G
+D IC TRNSLTR BIDIR 8MICROPAK
+K Level-Shifter CMOS-TTL-Translation
+F https://www.onsemi.com/pdf/datasheet/nlsx4373-d.pdf
+$ENDCMP
+#
+$CMP NVT2002DP,118
+D IC TRNSLTR BIDIRECTIONAL 8TSSOP
+K Level-Shifter CMOS-TTL-Translation
+F https://www.nxp.com/docs/en/data-sheet/NVT2001_NVT2002.pdf
+$ENDCMP
+#
+$CMP TXB0304RUT
+D 4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing, 0.9 - 3.6V APort, 0.9 - 3.6V BPort, Active High Output Enable, Texas_PUQFN-12
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0304.pdf
+$ENDCMP
+#
+#End Doc Library
