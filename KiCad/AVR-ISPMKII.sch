@@ -245,7 +245,7 @@ L AVR-ISPMKII-rescue:R-Device R11
 U 1 1 60B9D52D
 P 920 1620
 F 0 "R11" H 990 1666 50  0000 L CNN
-F 1 "470" H 990 1575 50  0000 L CNN
+F 1 "22k" H 990 1575 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 850 1620 50  0001 C CNN
 F 3 "~" H 920 1620 50  0001 C CNN
 	1    920  1620
@@ -258,7 +258,7 @@ L AVR-ISPMKII-rescue:R-Device R12
 U 1 1 60BBA5FE
 P 1360 1620
 F 0 "R12" H 1430 1666 50  0000 L CNN
-F 1 "470" H 1430 1575 50  0000 L CNN
+F 1 "2.2k" H 1430 1575 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1290 1620 50  0001 C CNN
 F 3 "~" H 1360 1620 50  0001 C CNN
 	1    1360 1620
@@ -1095,4 +1095,6 @@ F 3 "~" H 5260 5570 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5000 1200 5000 1450
+Text Notes 800  700  0    31   ~ 0
+Green is on while plugged in\nand 22.0k is a nice brightness.\n2.2k is a nice brightness for the\nred activity led.
 $EndSCHEMATC
