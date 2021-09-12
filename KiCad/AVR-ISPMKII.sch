@@ -358,25 +358,8 @@ F 3 "" H 3275 1075 50  0001 C CNN
 	1    3275 1075
 	1    0    0    -1  
 $EndComp
-$Comp
-L AVR-ISPMKII-rescue:Conn_01x02_Male-Connector J2
-U 1 1 60D064F3
-P 2140 1950
-F 0 "J2" H 2190 2150 50  0000 C CNN
-F 1 "Self_Program" H 2210 2060 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2140 1950 50  0001 C CNN
-F 3 "~" H 2140 1950 50  0001 C CNN
-	1    2140 1950
-	1    0    0    -1  
-$EndComp
-Text GLabel 2550 2050 2    50   Input ~ 0
+Text GLabel 2850 1900 2    50   Input ~ 0
 RST
-Text Label 2550 1950 0    50   ~ 0
-T_RST
-Wire Wire Line
-	2550 1950 2340 1950
-Wire Wire Line
-	2340 2050 2550 2050
 $Comp
 L AVR-ISPMKII-rescue:C-Device C6
 U 1 1 60D161C4
@@ -1097,4 +1080,45 @@ Wire Wire Line
 	5000 1200 5000 1450
 Text Notes 800  700  0    31   ~ 0
 Green is on while plugged in\nand 22.0k is a nice brightness.\n2.2k is a nice brightness for the\nred activity led.
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 612EE5CA
+P 2500 1900
+F 0 "JP1" H 2500 2105 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 2500 2014 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2500 1900 50  0001 C CNN
+F 3 "~" H 2500 1900 50  0001 C CNN
+	1    2500 1900
+	1    0    0    -1  
+$EndComp
+Text Label 2150 1900 2    50   ~ 0
+T_RST
+Wire Wire Line
+	2350 1900 2150 1900
+Wire Wire Line
+	2850 1900 2650 1900
+$Comp
+L Connector:TestPoint TP1
+U 1 1 6132262D
+P 3100 2550
+F 0 "TP1" H 3158 2668 50  0000 L CNN
+F 1 "TestPoint" H 3158 2577 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3300 2550 50  0001 C CNN
+F 3 "~" H 3300 2550 50  0001 C CNN
+	1    3100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L AVR-ISPMKII-rescue:GND-power #PWR0105
+U 1 1 6132377A
+P 3100 2650
+F 0 "#PWR0105" H 3100 2400 50  0001 C CNN
+F 1 "GND" H 3105 2477 50  0000 C CNN
+F 2 "" H 3100 2650 50  0001 C CNN
+F 3 "" H 3100 2650 50  0001 C CNN
+	1    3100 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2550 3100 2650
 $EndSCHEMATC
