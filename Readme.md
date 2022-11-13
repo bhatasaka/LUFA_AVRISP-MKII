@@ -26,7 +26,8 @@ This PCB is designed only for ISP. However, the PCB could be expanded to break o
 1. Clone the repository from https://github.com/abcminiuser/lufa.
 1. From this repo's `Firmware` folder, copy and replace the `Config` folder and `makefile` into `Projects/AVRISP-MKII/` in the LUFA repo.
 1. From this repo's `Firmware` folder, copy `BHATASAKA` folder into`LUFA/Divers/Board/AVR8` in the LUFA repo.
-1. In the LUFA repo, modify `LUFA/Drivers/Board/Board.h` and copy the last `#elif`, then modify it to use `BHATASAKA` as the board name
+1. In the LUFA repo, modify `LUFA/Drivers/Board/Board.h` and copy the last `#elif`, then modify it to use `BHATASAKA` as the board name.
+1. In the LUFA repo, modify `LUFA/Drivers/Board/LEDs.h` and copy the last `#elif`, then modify it to use `BHATASAKA` as the board name.
 
 ### Compiling
 Go to `Projects/AVRISP-MKII/` and type `make`. Make sure Make and avr-gcc are installed and in your path.
